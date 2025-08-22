@@ -4,31 +4,35 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>AR‑SUPP & CARA Reform — Solano County</title>
-  <meta name="description" content="AR‑SUPP & CARA Reform: detailed policy planks, signature goals, eligibility, and how this helps actively involved parents in Solano County and California." />
+  <meta name="description" content="AR‑SUPP & CARA Reform: policy planks, eligibility, signature goals, and how to help in Solano County & California." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- Top Nav -->
+  <!-- Header / Nav -->
   <header class="site-header">
-    <nav class="nav">
-      <a class="logo" href="#hero">AR‑SUPP & CARA</a>
-      <button class="nav-toggle" aria-label="Toggle menu" onclick="toggleMenu()">☰</button>
-      <ul id="navMenu" class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#scope">Policy Planks</a></li>
-        <li><a href="#eligibility">Eligibility</a></li>
-        <li><a href="#rationale">Why This Matters</a></li>
-        <li><a href="#signatures">Signature Goals</a></li>
-        <li><a href="#process">How It Works</a></li>
-        <li><a href="#faq">FAQ</a></li>
-        <li><a href="#action">Take Action</a></li>
-        <li><a href="#contact">Message Us</a></li>
+    <nav class="nav" role="navigation" aria-label="Primary">
+      <a class="logo" href="#hero" aria-label="AR‑SUPP & CARA Home">AR‑SUPP & CARA</a>
+
+      <button id="navToggle" class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+        <span class="burger" aria-hidden="true"></span>
+      </button>
+
+      <ul id="navMenu" class="nav-links" role="menu">
+        <li role="none"><a role="menuitem" href="#about">About</a></li>
+        <li role="none"><a role="menuitem" href="#scope">Policy Planks</a></li>
+        <li role="none"><a role="menuitem" href="#eligibility">Eligibility</a></li>
+        <li role="none"><a role="menuitem" href="#rationale">Why This Matters</a></li>
+        <li role="none"><a role="menuitem" href="#signatures">Signature Goals</a></li>
+        <li role="none"><a role="menuitem" href="#process">How It Works</a></li>
+        <li role="none"><a role="menuitem" href="#faq">FAQ</a></li>
+        <li role="none"><a role="menuitem" href="#action">Take Action</a></li>
+        <li role="none"><a role="menuitem" href="#contact">Message Us</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Hero with optional background.jpg -->
+  <!-- Hero -->
   <section id="hero" class="hero">
     <div class="hero-overlay">
       <div class="hero-content">
@@ -49,13 +53,10 @@
     <p>
       AR‑SUPP & CARA advances fairer custodial policy by reassessing legacy arrears, aligning
       practices with reentry and family stability, and stopping policies that trap actively
-      involved parents in debt. This page outlines the core planks, who may qualify, and how you
-      can help move this from proposal → ballot → law.
+      involved parents in debt. Below are the core planks, who may qualify, and how this moves
+      from proposal → ballot → law.
     </p>
-    <div class="note">
-      <strong>Advocacy note:</strong> This site is informational and reflects campaign targets.
-      It does not provide legal advice.
-    </div>
+    <p class="note"><strong>Advocacy note:</strong> This page is informational and reflects campaign targets. It is not legal advice.</p>
   </section>
 
   <!-- Policy Planks -->
@@ -64,35 +65,27 @@
     <div class="card-grid">
       <article class="card">
         <h3>Interest Reform</h3>
-        <p>DCSS interest currently functions like <em>debt entrapment</em>. Proposal:
-          <strong>No interest</strong> or a <strong>3–5% cap</strong> applied to
-          <strong>principal only</strong> (no interest-on-interest compounding).</p>
+        <p>Proposal: <strong>No interest</strong> or a <strong>3–5% cap</strong> on <strong>principal only</strong> (no interest‑on‑interest compounding).</p>
       </article>
       <article class="card">
         <h3>DMV Protections</h3>
-        <p><strong>No driver’s license holds or restrictions</strong> tied to support debt.
-          Prevent policies that block parents from working and transporting children.</p>
+        <p><strong>No driver’s license holds or restrictions</strong> tied to support debt.</p>
       </article>
       <article class="card">
         <h3>Credit Reporting Fix</h3>
-        <p>Require DCSS arrears to be classified as <strong>government debt</strong> —
-          <strong>not</strong> consumer debt, trade lines, or personal loans —
-          ending punitive credit harm that blocks <strong>jobs, emergency loans, and housing</strong>.</p>
+        <p>Reclassify DCSS arrears as <strong>government debt</strong> — not consumer debt/trade lines/personal loans — to prevent unfair credit harm.</p>
       </article>
       <article class="card">
         <h3>Arrears Reassessment</h3>
-        <p>Clear path to review and adjust unmanageable or incorrect arrears where
-           circumstances changed (unemployment, reentry, medical hardship, misapplied payments).</p>
+        <p>Clear path to review and adjust unmanageable or incorrect arrears where circumstances changed.</p>
       </article>
       <article class="card">
         <h3>Fair Classification</h3>
-        <p>Stop lumping <strong>actively involved parents</strong> with inactive “deadbeats.”
-           Transitional and involved parents shouldn’t be punished.</p>
+        <p>Stop lumping <strong>actively involved parents</strong> with inactive “deadbeats.” Transitional and involved parents shouldn’t be punished.</p>
       </article>
       <article class="card">
         <h3>Alignment with Purpose</h3>
-        <p>Child support is to <strong>support the child</strong>. Agency practices must not
-          restrict a parent’s ability to provide or reduce available resources.</p>
+        <p>Child support should <strong>support the child</strong> — not sabotage the parent’s ability to provide.</p>
       </article>
     </div>
   </section>
@@ -105,31 +98,29 @@
         <h4>Actively Involved Parents (Included)</h4>
         <ul class="checklist">
           <li>Non‑custodial or transitional parents providing support or care</li>
-          <li>Parents with documented income change, unemployment, or reentry status</li>
-          <li>Parents with evidence of misapplied payments or calculation errors</li>
-          <li>Parents with medical hardship/caregiving responsibilities</li>
+          <li>Documented income change, unemployment, or reentry status</li>
+          <li>Evidence of misapplied payments or calculation errors</li>
+          <li>Medical hardship or caregiving responsibilities</li>
         </ul>
       </div>
       <div class="elig-col">
         <h4>Not Eligible (Excluded)</h4>
         <ul class="checklist">
           <li>Inactive parents (“deadbeats”) not engaged in support/care</li>
-          <li>Cases lacking documentation to substantiate reassessment</li>
-          <li>Fraudulent filings or bad‑faith noncompliance</li>
+          <li>No documentation to substantiate reassessment</li>
+          <li>Fraudulent filings/bad‑faith noncompliance</li>
         </ul>
       </div>
     </div>
-    <div class="note"><strong>Reminder:</strong> Criteria here are advocacy proposals; formal eligibility will be set by enacted law/regulations.</div>
   </section>
 
   <!-- Why This Matters -->
   <section id="rationale" class="section">
     <h2>Why This Matters</h2>
     <p>
-      Current practices classify DCSS arrears as consumer debt and use interest rates that
-      escalate balances beyond reach. The result is <strong>credit harm</strong> that blocks
-      employment, emergency lending, and housing approvals — the exact resources families need.
-      If the goal is support, policy should not sabotage actively involved parents’ ability to provide.
+      Current practices classify DCSS arrears as consumer debt and use interest rates that escalate balances.
+      The result is <strong>credit harm</strong> that blocks employment, emergency lending, and housing approvals —
+      the resources families need. If the goal is support, policy should not sabotage actively involved parents.
     </p>
   </section>
 
@@ -137,76 +128,46 @@
   <section id="signatures" class="section">
     <h2>Signature Goals & Path to Ballot</h2>
     <div class="stat-grid">
-      <div class="stat">
-        <div class="stat-number">137,000</div>
-        <div class="stat-label">Signatures — Solano County Pilot</div>
-      </div>
-      <div class="stat">
-        <div class="stat-number">555,000</div>
-        <div class="stat-label">California Statewide Ballot / Bill</div>
-      </div>
-      <div class="stat">
-        <div class="stat-number">800,000+</div>
-        <div class="stat-label">Federal Path (adoption model)</div>
-      </div>
+      <div class="stat"><div class="stat-number">137,000</div><div class="stat-label">Solano County Pilot</div></div>
+      <div class="stat"><div class="stat-number">555,000</div><div class="stat-label">California Ballot / Bill</div></div>
+      <div class="stat"><div class="stat-number">800,000+</div><div class="stat-label">Federal Adoption Path</div></div>
     </div>
-    <p class="muted small">Figures represent campaign targets for proposal qualification and broader adoption.</p>
+    <p class="muted small">Figures are campaign targets for proposal qualification and broader adoption.</p>
   </section>
 
-  <!-- Process / How it Works -->
+  <!-- Process -->
   <section id="process" class="section steps">
     <h2>How It Works</h2>
     <ol class="stepper">
-      <li>
-        <h4>Learn & Share</h4>
-        <p>Review the policy planks and share the petition with your network.</p>
-      </li>
-      <li>
-        <h4>Sign the Petition</h4>
-        <p>Help hit signature goals for Solano County and the California ballot process.</p>
-      </li>
-      <li>
-        <h4>Document Your Case</h4>
-        <p>Gather records (income changes, payment history, reentry/medical documentation).</p>
-      </li>
-      <li>
-        <h4>Engage Lawmakers</h4>
-        <p>Provide testimony, meet local reps, and support bill drafting and refinement.</p>
-      </li>
+      <li><h4>Learn & Share</h4><p>Review policy planks and share the petition.</p></li>
+      <li><h4>Sign the Petition</h4><p>Help hit Solano & California signature goals.</p></li>
+      <li><h4>Document Your Case</h4><p>Gather income changes, payment history, reentry/medical documentation.</p></li>
+      <li><h4>Engage Lawmakers</h4><p>Provide testimony, meet local reps, support bill drafting.</p></li>
     </ol>
   </section>
 
   <!-- FAQ -->
   <section id="faq" class="section">
     <h2>Frequently Asked Questions</h2>
-
     <details class="faq">
       <summary>Does this forgive all arrears?</summary>
-      <div>No. It creates standards to reassess and adjust arrears when justified, and ends interest practices that balloon debt.</div>
+      <div>No. It sets standards to reassess and adjust arrears when justified, and ends interest practices that balloon debt.</div>
     </details>
-
     <details class="faq">
       <summary>Will my license still be at risk?</summary>
-      <div>The proposal calls for <strong>no DMV holds/restrictions</strong> tied to support debt.</div>
+      <div>Proposal: <strong>No DMV holds/restrictions</strong> tied to support debt.</div>
     </details>
-
     <details class="faq">
       <summary>How will arrears appear on credit?</summary>
-      <div>Proposal: classify arrears as <strong>government debt</strong> — not consumer debt/trade lines/personal loans — to prevent unfair credit harm.</div>
+      <div>Reclassify as <strong>government debt</strong>, not consumer debt/trade lines/personal loans.</div>
     </details>
-
     <details class="faq">
       <summary>What interest rate applies?</summary>
-      <div>Proposal: <strong>no interest</strong> or a <strong>3–5% cap</strong> on <strong>principal only</strong> (no interest-on-interest).</div>
-    </details>
-
-    <details class="faq">
-      <summary>Who benefits most?</summary>
-      <div>Actively involved parents — including transitional parents who became custodial, and non‑custodial parents with visitation who provide and pay support.</div>
+      <div><strong>No interest</strong> or a <strong>3–5% cap</strong> on <strong>principal only</strong> (no interest‑on‑interest).</div>
     </details>
   </section>
 
-  <!-- Take Action -->
+  <!-- Action -->
   <section id="action" class="section action">
     <h2>Take Action</h2>
     <p>Your support helps move this forward.</p>
@@ -216,7 +177,7 @@
     </div>
   </section>
 
-  <!-- Contact / Message Center -->
+  <!-- Contact -->
   <section id="contact" class="section contact">
     <h2>Message / Feedback Center</h2>
     <p><strong>Author:</strong> William Hugh Trahan</p>
@@ -245,7 +206,7 @@
   <!-- Footer -->
   <footer class="site-footer">
     <p>© 2025 AR‑SUPP & CARA Reform — Solano County, CA</p>
-    <p><strong>Disclaimer:</strong> This is an advocacy page; figures listed are campaign targets and content is not legal advice. For legal assistance, consult a licensed attorney.</p>
+    <p><strong>Disclaimer:</strong> Advocacy page; figures listed are campaign targets and content is not legal advice. For legal assistance, consult a licensed attorney.</p>
   </footer>
 
   <script src="script.js"></script>

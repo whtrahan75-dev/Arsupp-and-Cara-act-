@@ -1,94 +1,251 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AR-SUPP & CARA Reform</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AR‑SUPP & CARA Reform — Solano County</title>
+  <meta name="description" content="AR‑SUPP & CARA Reform: detailed policy planks, signature goals, eligibility, and how this helps actively involved parents in Solano County and California." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <header>
-    <nav>
-      <div class="logo">AR‑SUPP & CARA</div>
-      <ul class="nav-links">
+  <!-- Top Nav -->
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="#hero">AR‑SUPP & CARA</a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="toggleMenu()">☰</button>
+      <ul id="navMenu" class="nav-links">
         <li><a href="#about">About</a></li>
-        <li><a href="#objectives">Objectives</a></li>
-        <li><a href="#chatbot">Chatbot</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#scope">Policy Planks</a></li>
+        <li><a href="#eligibility">Eligibility</a></li>
+        <li><a href="#rationale">Why This Matters</a></li>
+        <li><a href="#signatures">Signature Goals</a></li>
+        <li><a href="#process">How It Works</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#action">Take Action</a></li>
+        <li><a href="#contact">Message Us</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero">
-    <div class="hero-content">
-      <h1>AR‑SUPP & CARA</h1>
-      <p>Arrears under Custodial Reassessment & Custodial Advocacy Reform Act</p>
-      <button onclick="scrollToSection('about')">Learn More</button>
+  <!-- Hero with optional background.jpg -->
+  <section id="hero" class="hero">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>AR‑SUPP & CARA Reform</h1>
+        <p>Arrears under Custodial Reassessment & Custodial Advocacy Reform</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#scope">See the Policy</a>
+          <a class="btn ghost" href="#signatures">Signature Goals</a>
+        </div>
+        <p class="meta">Solano County, California • Last updated: June 2025</p>
+      </div>
     </div>
   </section>
 
-  <section id="about" class="section about">
+  <!-- About -->
+  <section id="about" class="section">
     <h2>About the Reform</h2>
     <p>
-      This act modernizes custodial policy and addresses arrears reassessment, family advocacy,
-      and justice reform — complementing the SUPPORT and CARA legislation.
+      AR‑SUPP & CARA advances fairer custodial policy by reassessing legacy arrears, aligning
+      practices with reentry and family stability, and stopping policies that trap actively
+      involved parents in debt. This page outlines the core planks, who may qualify, and how you
+      can help move this from proposal → ballot → law.
+    </p>
+    <div class="note">
+      <strong>Advocacy note:</strong> This site is informational and reflects campaign targets.
+      It does not provide legal advice.
+    </div>
+  </section>
+
+  <!-- Policy Planks -->
+  <section id="scope" class="section cards">
+    <h2>Policy Planks (What This Reform Represents)</h2>
+    <div class="card-grid">
+      <article class="card">
+        <h3>Interest Reform</h3>
+        <p>DCSS interest currently functions like <em>debt entrapment</em>. Proposal:
+          <strong>No interest</strong> or a <strong>3–5% cap</strong> applied to
+          <strong>principal only</strong> (no interest-on-interest compounding).</p>
+      </article>
+      <article class="card">
+        <h3>DMV Protections</h3>
+        <p><strong>No driver’s license holds or restrictions</strong> tied to support debt.
+          Prevent policies that block parents from working and transporting children.</p>
+      </article>
+      <article class="card">
+        <h3>Credit Reporting Fix</h3>
+        <p>Require DCSS arrears to be classified as <strong>government debt</strong> —
+          <strong>not</strong> consumer debt, trade lines, or personal loans —
+          ending punitive credit harm that blocks <strong>jobs, emergency loans, and housing</strong>.</p>
+      </article>
+      <article class="card">
+        <h3>Arrears Reassessment</h3>
+        <p>Clear path to review and adjust unmanageable or incorrect arrears where
+           circumstances changed (unemployment, reentry, medical hardship, misapplied payments).</p>
+      </article>
+      <article class="card">
+        <h3>Fair Classification</h3>
+        <p>Stop lumping <strong>actively involved parents</strong> with inactive “deadbeats.”
+           Transitional and involved parents shouldn’t be punished.</p>
+      </article>
+      <article class="card">
+        <h3>Alignment with Purpose</h3>
+        <p>Child support is to <strong>support the child</strong>. Agency practices must not
+          restrict a parent’s ability to provide or reduce available resources.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Eligibility -->
+  <section id="eligibility" class="section">
+    <h2>Who May Qualify (Program Targeting)</h2>
+    <div class="elig-grid">
+      <div class="elig-col">
+        <h4>Actively Involved Parents (Included)</h4>
+        <ul class="checklist">
+          <li>Non‑custodial or transitional parents providing support or care</li>
+          <li>Parents with documented income change, unemployment, or reentry status</li>
+          <li>Parents with evidence of misapplied payments or calculation errors</li>
+          <li>Parents with medical hardship/caregiving responsibilities</li>
+        </ul>
+      </div>
+      <div class="elig-col">
+        <h4>Not Eligible (Excluded)</h4>
+        <ul class="checklist">
+          <li>Inactive parents (“deadbeats”) not engaged in support/care</li>
+          <li>Cases lacking documentation to substantiate reassessment</li>
+          <li>Fraudulent filings or bad‑faith noncompliance</li>
+        </ul>
+      </div>
+    </div>
+    <div class="note"><strong>Reminder:</strong> Criteria here are advocacy proposals; formal eligibility will be set by enacted law/regulations.</div>
+  </section>
+
+  <!-- Why This Matters -->
+  <section id="rationale" class="section">
+    <h2>Why This Matters</h2>
+    <p>
+      Current practices classify DCSS arrears as consumer debt and use interest rates that
+      escalate balances beyond reach. The result is <strong>credit harm</strong> that blocks
+      employment, emergency lending, and housing approvals — the exact resources families need.
+      If the goal is support, policy should not sabotage actively involved parents’ ability to provide.
     </p>
   </section>
 
-  <section id="objectives" class="section">
-    <h2>Core Objectives</h2>
-    <ul class="objectives-list">
-      <li>✔️ Equitable reassessment of arrears</li>
-      <li>✔️ Enhanced support for family reunification</li>
-      <li>✔️ Transparent advocacy and policy navigation</li>
-      <li>✔️ Integration with CARA & SUPPORT federal programs</li>
-    </ul>
-  </section>
-
-  <section id="chatbot" class="section chatbot">
-    <h2>Policy Q&A 🤖</h2>
-    <div class="chat-container">
-      <div id="chat-log"></div>
-      <input type="text" id="user-input" placeholder="Ask about AR‑SUPP & CARA..." />
-      <button onclick="sendMessage()">Send</button>
+  <!-- Signature Goals -->
+  <section id="signatures" class="section">
+    <h2>Signature Goals & Path to Ballot</h2>
+    <div class="stat-grid">
+      <div class="stat">
+        <div class="stat-number">137,000</div>
+        <div class="stat-label">Signatures — Solano County Pilot</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">555,000</div>
+        <div class="stat-label">California Statewide Ballot / Bill</div>
+      </div>
+      <div class="stat">
+        <div class="stat-number">800,000+</div>
+        <div class="stat-label">Federal Path (adoption model)</div>
+      </div>
     </div>
-    <p class="note">*ChatGPT‑4o integration coming soon</p>
+    <p class="muted small">Figures represent campaign targets for proposal qualification and broader adoption.</p>
   </section>
 
+  <!-- Process / How it Works -->
+  <section id="process" class="section steps">
+    <h2>How It Works</h2>
+    <ol class="stepper">
+      <li>
+        <h4>Learn & Share</h4>
+        <p>Review the policy planks and share the petition with your network.</p>
+      </li>
+      <li>
+        <h4>Sign the Petition</h4>
+        <p>Help hit signature goals for Solano County and the California ballot process.</p>
+      </li>
+      <li>
+        <h4>Document Your Case</h4>
+        <p>Gather records (income changes, payment history, reentry/medical documentation).</p>
+      </li>
+      <li>
+        <h4>Engage Lawmakers</h4>
+        <p>Provide testimony, meet local reps, and support bill drafting and refinement.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <h2>Frequently Asked Questions</h2>
+
+    <details class="faq">
+      <summary>Does this forgive all arrears?</summary>
+      <div>No. It creates standards to reassess and adjust arrears when justified, and ends interest practices that balloon debt.</div>
+    </details>
+
+    <details class="faq">
+      <summary>Will my license still be at risk?</summary>
+      <div>The proposal calls for <strong>no DMV holds/restrictions</strong> tied to support debt.</div>
+    </details>
+
+    <details class="faq">
+      <summary>How will arrears appear on credit?</summary>
+      <div>Proposal: classify arrears as <strong>government debt</strong> — not consumer debt/trade lines/personal loans — to prevent unfair credit harm.</div>
+    </details>
+
+    <details class="faq">
+      <summary>What interest rate applies?</summary>
+      <div>Proposal: <strong>no interest</strong> or a <strong>3–5% cap</strong> on <strong>principal only</strong> (no interest-on-interest).</div>
+    </details>
+
+    <details class="faq">
+      <summary>Who benefits most?</summary>
+      <div>Actively involved parents — including transitional parents who became custodial, and non‑custodial parents with visitation who provide and pay support.</div>
+    </details>
+  </section>
+
+  <!-- Take Action -->
   <section id="action" class="section action">
-    <h2>Take Action Now</h2>
-    <p>Support this reform by signing and sharing:</p>
+    <h2>Take Action</h2>
+    <p>Your support helps move this forward.</p>
     <div class="action-buttons">
       <a href="https://chng.it/7RRhQqm7Mr" target="_blank" class="btn-petition">✍️ Sign the Petition</a>
-      <a href="https://gofund.me/f1f428b6" target="_blank" class="btn-donate">💰 Donate</a>
+      <a href="https://gofund.me/f1f428b6" target="_blank" class="btn-donate">💰 Donate (GoFundMe)</a>
     </div>
   </section>
 
+  <!-- Contact / Message Center -->
   <section id="contact" class="section contact">
-    <h2>Contact & Feedback</h2>
+    <h2>Message / Feedback Center</h2>
     <p><strong>Author:</strong> William Hugh Trahan</p>
     <p><strong>Location:</strong> Solano County, California</p>
-    <p>We welcome your thoughts and feedback on the AR-SUPP & CARA Act reform initiative.</p>
+    <p>Send a message about the reform (questions, suggestions, endorsements):</p>
 
-    <form action="https://formspree.io/f/your-form-id" method="POST">
-      <label for="name">Your Name:</label>
-      <input type="text" name="name" required>
-
-      <label for="email">Your Email (optional):</label>
-      <input type="email" name="_replyto">
-
-      <label for="message">Your Message:</label>
-      <textarea name="message" required></textarea>
-
-      <button type="submit">Send Message</button>
+    <!-- Replace action with your Formspree/Getform endpoint when ready -->
+    <form action="#" method="POST" onsubmit="return handleLocalMessage(event)">
+      <div class="form-row">
+        <label>Name</label>
+        <input type="text" name="name" required />
+      </div>
+      <div class="form-row">
+        <label>Email (optional)</label>
+        <input type="email" name="email" />
+      </div>
+      <div class="form-row">
+        <label>Your Message</label>
+        <textarea name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn primary">Send</button>
+      <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
     </form>
   </section>
 
-  <footer>
-    <p>&copy; 2025 AR‑SUPP & CARA Reform Initiative. All rights reserved.</p>
-    <p><a href="https://chng.it/7RRhQqm7Mr" target="_blank" style="color:#00d8ff;">✍️ Sign the Petition</a></p>
-    <p><strong>Disclaimer:</strong> This site does not provide legal advice. For legal assistance, consult a licensed attorney.</p>
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>© 2025 AR‑SUPP & CARA Reform — Solano County, CA</p>
+    <p><strong>Disclaimer:</strong> This is an advocacy page; figures listed are campaign targets and content is not legal advice. For legal assistance, consult a licensed attorney.</p>
   </footer>
 
   <script src="script.js"></script>
